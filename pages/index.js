@@ -79,7 +79,7 @@ export default function Home() {
                 target="_blank" rel="noopener noreferrer"
                 style={{height: 'fit-content'}}
               >
-                <Button variant='contained' color='error' sx={{marginLeft: '25%', width: '50%'}}>Bookings</Button>
+                <Button variant='contained' color='error' sx={{ width: '50%'}}>Bookings</Button>
               </a>
             </div>
             <div>
