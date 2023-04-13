@@ -4,6 +4,13 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(var(--background-end-rgb))
+  )
+  rgb(var(--background-start-rgb));
 }
 
 .emailTitle{
