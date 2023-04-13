@@ -1,8 +1,3 @@
-:root{
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
 .emailInput{
   width: 50%;
   padding: 5%;
@@ -13,9 +8,9 @@
   background: linear-gradient(
     to bottom,
     transparent,
-    rgb(var(--background-end-rgb))
+    rgb( 0, 0, 0)
   )
-  rgb(var(--background-start-rgb));
+  rgb(0, 0, 0);
 }
 
 .emailTitle{
