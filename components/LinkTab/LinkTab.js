@@ -9,6 +9,7 @@ const LinkTab = ({to, tabName, handleChange}) => {
       smooth={true}
       offset={-70}
       duration={500}
+      isDynamic
     >
       <Tab 
         label={tabName}
