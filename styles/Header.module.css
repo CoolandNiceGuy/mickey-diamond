@@ -1,0 +1,22 @@
+.header{
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding: .25rem; */
+  z-index: 100;
+}
+
+.headerLink{
+  width: 25%;
+  padding: .25rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.headerLink:hover{
+  color: #330000;
+}

@@ -1,0 +1,20 @@
+.emailInput{
+  width: 50%;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.emailTitle{
+  color: red;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 600px){
+  .emailInput{
+    width: 100%;
+  }
+}

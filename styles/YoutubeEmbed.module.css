@@ -1,0 +1,16 @@
+.videoContainer {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.videoContainer iframe {
+  left: 50;
+  top: 0;
+  height: min(100%, 480px);
+  width: min(100%, 853px);
+  position: absolute;
+}

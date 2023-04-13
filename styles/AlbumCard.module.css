@@ -1,0 +1,26 @@
+.albumCard{
+  margin: 1rem;
+  text-align: center;
+  /* height: fit-content; */
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 100%);
+  /* width: 45%; */
+}
+
+.cardsContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+@media only screen and (max-width: 600px){
+  .albumCard{
+    max-width: 90%;
+    margin: 1rem;
+  }
+
+  .cardsContainer{
+    flex-direction: column;
+  }
+  
+}
