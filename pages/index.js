@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>DIAMOND DALLAS</title>
+        <title>MICKEY DIAMOND</title>
         <meta name='viewport' content="height=device-height, 
           width=device-width, initial-scale=1.0, 
           minimum-scale=1.0, maximum-scale=1.0, 
@@ -38,7 +38,7 @@ export default function Home() {
           {/* can toggle mute as well */}
           {/* &autoplay=1 <- append this to end lof link allow autoplay*/}
           <div className={styles.embedWrapper}>
-            <YoutubeEmbed playlistLink="https://www.youtube.com/embed/videoseries?list=PLOGfinRhhM27EgfXE6xvBzVc-b3-h96K9&mute=1"/>
+            <YoutubeEmbed playlistLink="https://www.youtube.com/embed/videoseries?list=PLOGfinRhhM27EgfXE6xvBzVc-b3-h96K9&mute=1&autoplay=1"/>
           </div>
         </Section>
         <Section id="music">
